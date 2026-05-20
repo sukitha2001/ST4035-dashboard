@@ -1,0 +1,10 @@
+streamlit
+numpy
+pandas
+plotly
+scikit-learn
+statsmodels
+imbalanced-learn
+scipy
+# streamlit-echarts (removed) - using Plotly for simplicity
+

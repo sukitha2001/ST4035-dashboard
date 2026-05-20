@@ -1,0 +1,44 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ── Virtual environments ─────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter / IPython ────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Streamlit ────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── OS / editor ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
+
+# ── Data & outputs ───────────────────────────────────────
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+outputs/
+data/raw/
+data/processed/
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+logs/
